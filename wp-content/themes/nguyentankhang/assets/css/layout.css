@@ -1,0 +1,55 @@
+.bg-mainmenu
+{
+    background-color: rgb(149, 206, 34);
+}
+.img-fluid1{
+    max-width: 250px;
+    height: auto;
+}
+.content
+{
+    display: flex;
+    padding: 1%;
+}
+.contenttext
+{
+    padding: 1%;
+}
+.col-md-3
+{
+    background-color: rgb(232, 220, 222);
+}
+.main-menu ul.menu
+ {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.main-menu ul.menu>li{
+    float: left;
+}
+.main-menu ul.menu>li>a{
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.main-menu::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-menu ul.menu>li ul.sub-menu
+{
+    display: none;
+}
+.footer
+{
+    background-color: brown;
+}
+.header{
+    background-color: brown;
+}
